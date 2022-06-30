@@ -1,3 +1,5 @@
+package provajava;
+
 public class Lingua {
     public String falar;
     public String anodecriacao;
@@ -9,7 +11,7 @@ public class Lingua {
 }
 
 
-
+package provajava;
 
 public class Portugues extends Lingua {
     public Portugues(String _falar, String _anodecriacao){
@@ -17,6 +19,7 @@ public class Portugues extends Lingua {
     }   
 }
 
+package provajava;
 
 public class Main {
     public static void main (String [] args){
